@@ -155,7 +155,7 @@ class Review extends Component {
         fd.append('color', this.state.color);
         fd.append('description', this.state.description);
         fd.append('rating', this.state.rating);
-        fd.append('picture', this.state.picture);
+//         fd.append('picture', this.state.picture);
 //        fd.append('userNameFB', this.props.fbName);
         fd.append('userNameG', this.props.gName);
         
