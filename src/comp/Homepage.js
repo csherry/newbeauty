@@ -255,7 +255,7 @@ constructor(props){
                <NavLink onClick={this.changePage.bind(this,true)}>My Review</NavLink>
               </NavItem>
 			<NavItem id="uName" className="mr-auto">
-				 <p>Hello, {this.props.gName}!</p>
+				 <p>Hello, {this.props.fbName}!</p>
 			</NavItem>
               
             </Nav>
