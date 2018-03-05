@@ -1,0 +1,105 @@
+body{
+	
+	font-size: 12px;
+}
+
+#main-review {
+    width: 100vw;
+    height: inherit;
+    text-align: left;
+    background-color: #EFEFEF;
+	min-height: 550px;
+	/*
+	background-image:url('./img/RPBG.jpg');
+	background-repeat:no-repeat;
+*/
+}
+
+#target {
+    border: 4px dashed #fff;
+	width: 200px;
+	height: 250px;   
+}
+body{
+	font-family: 'Josefin Sans', sans-serif;
+	min-height: 0;
+	
+	
+}
+
+.sectionHeader{
+	color: #73877B;
+}
+
+#dropzone {
+    text-align: center;
+    padding-top: 9%;
+}
+
+#review {
+    width: 200px;
+    height: 250px;
+    resize:both;
+    margin-top: 10px;
+}
+
+.uploadBtn{
+color: white;
+background-color: #91CED9;
+font-family:'Josefin Sans', sans-serif;
+text-align: center;
+cursor: pointer;
+transform: translate(-50%, -50%);
+padding: 10px;
+border-radius:4px;
+position: absolute;
+right:0;
+
+}
+
+
+
+.uploadBtn:hover{
+	color: white;
+	background-color: #1B3F43;
+
+}
+
+#uName{
+    margin-top: 2%;
+	text-align: left;
+	right: 2%;
+	cursor:default;
+	position:absolute;
+	
+}
+
+
+.footer {
+	margin-top: 20%;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    background-color: #fff;
+	
+	
+}
+
+h6{
+	color: #73877B;
+}
+
+.modalDiv{
+position: absolute;
+align-content: center;
+top:35%;
+margin-left: 45%;
+}
+
+input{
+	padding: 13px;
+}
+
+
+#input-image{
+			
+}
