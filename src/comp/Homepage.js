@@ -74,7 +74,7 @@ constructor(props){
     speakServer(obj){
             console.log("Speak");
             
-            fetch("https://btwinserver.herokuapp.com/search/"+obj.brandName+"-"+obj.productName+"-"+obj.color).then((resp)=>{
+            fetch("https://newbeautyserver.herokuapp.com/search/"+obj.brandName+"-"+obj.productName+"-"+obj.color).then((resp)=>{
                 return resp.json();
             }).then((response)=>{
                 this.setState({
